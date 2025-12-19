@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça a Soul Coffee — cafeteria artesanal com cafés especiais, brunch e ambiente acolhedor no Centro de São Paulo.">
+    <meta name="keywords" content="Café, cafeteria, Soul Coffee, bebidas, lanches">
+    <meta name="author" content="Soul Coffee">
+
+    <link rel="stylesheet" href="/Soul Coffee/src/styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- pesquisar o isso faz -->
+    <link rel="icon" href="src/assets/logo_coffe.png" type="image/x-icon">
+
+    <title>Soul Coffee</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="menu_icon">
+                <a href="index.html"><img id="logo" src="src/assets/logo_coffe.png" alt="Logo Soul Coffee" class="logo"></a>
+                <h1 class="title_navbar">Soul Coffee</h1>
+            </div>
+            <div class="nav_links">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">Sobre Nós</a>
+                <a href="#reserva">Reserva</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- SECTION 1 : BEM-VINDO -->
+        <section id="welcome" name="bem-vindo">
+            <div class="text">
+                <h1>Bem-vindo à Soul Coffee</h1>
+                <p>Cafés de origem, pães artesanais e momentos que aquecem a alma.</p>
+
+                <div id="button_welcome">
+                    <button onclick="location.href='#menu'">Ver Menu</button>
+                    <button onclick="location.href='#reserva'">Fazer Reserva</button>
+                </div>
+            </div>
+            <img src="src/assets/fundo_coffe.png" alt="Imagem de café">
+        </section>
+
+        <!-- SECTION 2 : CARDÁPIO -->
+        <section id="cardapio" name="menu">
+            <h2>Nosso cardapio é composto por:</h2>
+            <div class="container">
+                <div class="text_cardapio">
+                    <img src="src/assets/fig_cafe.png" alt="Imagem de café">
+                    <h3>Cafés</h3>
+                </div>
+
+                <div class="text_cardapio">
+                    <img src="src/assets/fig_paes.png" alt="Imagem de paes">
+                    <h3>Pães</h3>
+                </div>
+
+                <div class="text_cardapio">
+                    <img src="src/assets/fig_chas.png" alt="Imagem de chás">
+                    <h3>Chás</h3>
+                </div>
+
+                <div class="text_cardapio">
+                    <img src="src/assets/fig_sobremesas.png" alt="Imagem de bolos">
+                    <h3>Sobremesas</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3 : SOBRE NÓS -->
+        <section id="about" name="sobre_nos">
+            <h2>Sobre Nós</h2>
+            <p>A Soul Coffee nasceu para transformar o simples ato de tomar café em um momento de pausa e conexão. Trabalhamos com grãos de origem, torra própria e produtos locais — tudo para servir o café com mais alma e propósito.</p>
+            <button> Conheça nossa História</button>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-container">
+
+                <!-- Coluna 1: Marca -->
+                <div class="footer-col">
+                    <p>&copy; 2025 Soul Coffee</p>
+                    <p>Todos os direitos reservados.</p>
+                </div>
+
+                <!-- Coluna 2: Contatos -->
+                <div class="footer-col">
+                    <h3>Contatos</h3>
+
+                    <div class="confg_contato">
+                        <img src="src/assets/telefone.png" alt="">
+                        <span>+55 (11) 4000-1234</span>
+                    </div>
+
+                    <div class="confg_contato">
+                        <img src="src/assets/whatsapp.png" alt="">
+                        <span>+55 (11) 9 9123-4567</span>
+                    </div>
+
+                    <div class="confg_contato">
+                        <img src="src/assets/envelope.png" alt="">
+                        <span>contato@soulcoffee.com.br</span>
+                    </div>
+                </div>
+
+                <!-- Coluna 3: Horários -->
+                <div class="footer-col">
+                    <h3>Horários</h3>
+                    <p>Seg–Sex: 7h às 20h</p>
+                    <p>Sáb: 8h às 18h</p>
+                    <p>Dom: 9h às 15h</p>
+                </div>
+
+                <!-- Coluna 4: Info -->
+                <div class="footer-col">
+                    <h3>Informações</h3>
+
+                    <div class="confg_contato">
+                        <img src="src/assets/pin.png" alt="">
+                        <span>Rua das Acácias, 214 — Centro, SP</span>
+                    </div>
+
+                    <p>Formas de pagamento: PIX, cartões e dinheiro</p>
+                    <p>Wi-Fi gratuito • Pet-friendly 🐾 • Acessível ♿</p>
+
+                    <a href="#">Menu • Reservas • Sobre • Eventos</a>
+                </div>
+
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
