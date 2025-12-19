@@ -29,4 +29,5 @@ Projeto criado apenas para **estudo/prática**.
 ## 🚀 Como visualizar o projeto
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/soul-coffee.git
+   git clone https://github.com/Julia-BC/soul-coffee.git
+
