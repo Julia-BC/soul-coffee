@@ -2,6 +2,13 @@
 
 Landing page fictícia de uma cafeteria criada exclusivamente para **estudo e prática de desenvolvimento front-end**.
 
+<p align="center">
+  <img src="assets/preview.png" alt="Prévia do projeto Soul Coffee" width="800">
+</p>
+
+## 🌐 Projeto publicado
+🔗 https://julia-bc.github.io/soul-coffee/
+
 ## 📄 Sobre o projeto
 O **Soul Coffee** é um site institucional simples que simula a página de uma cafeteria artesanal.  
 O projeto foi desenvolvido com foco no **layout**, **organização visual** e **responsividade**, sem fins comerciais.
@@ -30,4 +37,5 @@ Projeto criado apenas para **estudo/prática**.
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Julia-BC/soul-coffee.git
+
 
