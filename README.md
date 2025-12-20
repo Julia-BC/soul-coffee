@@ -3,7 +3,7 @@
 Landing page fictícia de uma cafeteria criada exclusivamente para **estudo e prática de desenvolvimento front-end**.
 
 <p align="center">
-  <img src="assets/preview.png" alt="Prévia do projeto Soul Coffee" width="800">
+  <img src="src/assets/preview.png" alt="Prévia do projeto Soul Coffee" width="800">
 </p>
 
 ## 🌐 Projeto publicado
